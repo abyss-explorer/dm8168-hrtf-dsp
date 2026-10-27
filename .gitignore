@@ -1,0 +1,33 @@
+# SOFA data files (large, not version-controlled)
+*.sofa
+
+# CodeBuddy IDE configuration
+.codebuddy/
+.vscode/
+
+# Build artifacts — compiled binaries and object files
+*.o
+*.oe674
+*.ov5T
+*.out
+*.obj
+*.exe
+*.d
+*.map
+*.dep
+
+# Build output directories
+dsp/bin/
+dsp/configuro/
+host/bin/
+alsa_fifo/bin/
+
+# Pre-built binaries (not source)
+tools/fft_test
+
+# Generated output
+output_processed.pcm
+
+# OS files
+.DS_Store
+Thumbs.db
